@@ -12,10 +12,30 @@ body{
 .form-text{
     display: flex;
     background: #fff;
-    width: 60%;
+    width: 60rem;
+    height: 38rem;
+    margin: 0 auto;
+    position: relative;
+    top:5rem;
     border-radius: 10px;
-    height: auto;
     flex-direction: row;
-    justify-content:space-between;
-    margin: auto;
+    
 }
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .img-side{
+    margin-left: 20px;
+    width: 30rem;
+    height: 150px;
+    margin-top:20px;
+
+
+  }
